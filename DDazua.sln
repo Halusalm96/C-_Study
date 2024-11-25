@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Mission", "001_Mission\001_Mission.csproj", "{78B46D63-88EA-41EC-8461-82ABCBA539D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Variable", "002_Variable\002_Variable.csproj", "{92526A71-88AF-41C8-8D65-34C5201293EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Interger", "003_Interger\003_Interger.csproj", "{D1DEEA72-7A48-41CE-BA8A-340774101190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{92526A71-88AF-41C8-8D65-34C5201293EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92526A71-88AF-41C8-8D65-34C5201293EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92526A71-88AF-41C8-8D65-34C5201293EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DEEA72-7A48-41CE-BA8A-340774101190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DEEA72-7A48-41CE-BA8A-340774101190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DEEA72-7A48-41CE-BA8A-340774101190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DEEA72-7A48-41CE-BA8A-340774101190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -25,6 +25,7 @@ namespace _002_Variable
                 int xx = 100;
                 int aa = 0, bb = 1, cc = 2;
 
+                //Console.WriteLine(x);
                 
             }
         }
