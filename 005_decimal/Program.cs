@@ -27,7 +27,6 @@ namespace _005_decimal
             {
                 Console.WriteLine("\n 저장 가능 범위");
 
-                decimal dcNum = 123123123.12314M; //수치 접미사 (M, m)
                 decimal minDecimal = decimal.MinValue;
                 decimal maxDecimal = decimal.MaxValue;
 
