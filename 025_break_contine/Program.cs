@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _025_break_contine
 {
@@ -10,7 +6,7 @@ namespace _025_break_contine
     {
         static void Main(string[] args)
         {
-            //break 기초
+            // break 기초 - 멈추다
             {
                 Console.WriteLine("\n break 기초");
 
@@ -63,7 +59,7 @@ namespace _025_break_contine
                 }
             }
 
-            //continue 기초
+            // continue 기초 - 넘어가다 (패스) -> 반복 구간 패스
             {
                 Console.WriteLine("\n continue 기초");
 
