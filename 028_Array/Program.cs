@@ -6,19 +6,28 @@ namespace _028_Array
     {
         static void Main(string[] args)
         {
-            //배열의 기초..
+            // 배열의 기초..
             {
                 Console.WriteLine("배열의 기초");
 
                 int[] arrays = new int[10]; //[0][1][2] ... [9]
+                int[] values = new int[] {0 ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 };
 
                 for (int i = 0; i < arrays.Length; i++)
                 {
                     Console.Write($"[{i}]: {arrays[i]} ");
                 }
+                Console.WriteLine();
+
+                Console.WriteLine($"배열 연습");
+                for (int i = 0; i < values.Length; i++)
+                {
+                    Console.Write($"[{i}]: {values[i]} ");
+                }
+                Console.WriteLine();
             }
 
-            //배열의 선언 방법
+            // 배열의 선언 방법
             {
                 Console.WriteLine("배열의 선언 방법");
 
@@ -26,7 +35,7 @@ namespace _028_Array
                 int[] array2 = new int[] { 0, 1, 2, 4 };
                 int[] array3;
                 array3 = new int[] { 0, 1, 2, 4 };
-                //array3 = { 0, 1, 2, 4 }; //에러..
+                // array3 = { 0, 1, 2, 4 }; //에러..
 
                 for (int i = 0; i < array1.Length; i++)
                 {
@@ -46,7 +55,7 @@ namespace _028_Array
                 }
             }
 
-            //배열에서 지원되는 함수
+            // 배열에서 지원되는 함수
             {
                 Console.WriteLine("\n 배열에서 지원되는 함수");
 
@@ -56,6 +65,7 @@ namespace _028_Array
                     Console.Write($"[{i}]: {numbers[i]} ");
                 }
 
+                // Clone (복사) - 배열 복사
                 Console.WriteLine("\n 배열 복사");
                 int[] copyNumbers;
                 copyNumbers = (int[])numbers.Clone();
@@ -65,6 +75,7 @@ namespace _028_Array
                     Console.Write($"[{i}]: {copyNumbers[i]} ");
                 }
 
+                // Array.Sort (정렬) - 작은 숫자부터 정렬
                 Console.WriteLine("\n 배열 정렬");
                 Array.Sort(numbers);
                 for (int i = 0; i < numbers.Length; i++)
@@ -88,7 +99,7 @@ namespace _028_Array
                 }
             }
 
-            //foreach
+            // foreach
             {
                 Console.WriteLine("\n foreach");
 
