@@ -60,6 +60,7 @@ namespace _028_Array
                 Console.WriteLine("\n 배열에서 지원되는 함수");
 
                 int[] numbers = { 50, 36, 99, 67 };
+
                 for (int i = 0; i < numbers.Length; i++)
                 {
                     Console.Write($"[{i}]: {numbers[i]} ");
@@ -83,6 +84,7 @@ namespace _028_Array
                     Console.Write($"[{i}]: {numbers[i]} ");
                 }
 
+                // Copyto (복사) - 배열 복사
                 Console.WriteLine("\n 배열 Copyto");
                 int[] copyNumber3 = new int[10];
                 numbers.CopyTo(copyNumber3, 3);
@@ -91,6 +93,7 @@ namespace _028_Array
                     Console.Write($"[{i}]: {copyNumber3[i]} ");
                 }
 
+                // Clear (청소) - 배열을 초기화 -> Array.Clear(대상 배열, 초기화를 시작할 인덱스, 초기화할 요소 개수)
                 Console.WriteLine("\n 배열 초기화");
                 Array.Clear(numbers, 0, numbers.Length);
                 for (int i = 0; i < numbers.Length; i++)
@@ -99,12 +102,12 @@ namespace _028_Array
                 }
             }
 
-            // foreach
+            // foreach - 반복문 (배열을 넣어 처음과 끝을 정할 수 있음)
             {
                 Console.WriteLine("\n foreach");
 
                 int[] nums = new int[5] { 0, 1, 3, 4, 5 };
-
+                
                 foreach (var item in nums)
                 {
                     //item = 1000; //에러..

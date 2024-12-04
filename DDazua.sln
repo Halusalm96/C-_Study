@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027_Stopwatch", "027_Stopwa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028_Array", "028_Array\028_Array.csproj", "{878350A0-90CA-41AF-B82C-023A7A3C884E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029_Array", "029_Array\029_Array.csproj", "{CFF0CF40-AA8C-4E80-BA32-9EF7EA80D063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{878350A0-90CA-41AF-B82C-023A7A3C884E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878350A0-90CA-41AF-B82C-023A7A3C884E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878350A0-90CA-41AF-B82C-023A7A3C884E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF0CF40-AA8C-4E80-BA32-9EF7EA80D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF0CF40-AA8C-4E80-BA32-9EF7EA80D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF0CF40-AA8C-4E80-BA32-9EF7EA80D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF0CF40-AA8C-4E80-BA32-9EF7EA80D063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
