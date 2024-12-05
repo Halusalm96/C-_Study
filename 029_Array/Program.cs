@@ -6,7 +6,8 @@ namespace _029_Array
     {
         static void Main(string[] args)
         {
-            //다차원 배열(2, 3차원)
+            // 다차원 배열(2, 3차원)
+            // 2차원 ({}전체 인덱스 중, 해당 {}안에 있는 인덱스
             {
                 int[,] array2D = new int[,]  //Row, Column(4 * 2)
                 {
