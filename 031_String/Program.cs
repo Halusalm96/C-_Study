@@ -20,11 +20,21 @@ namespace _031_String
             }
 
             //레퍼런스 체크하기.
+            //레퍼런스 = 메모리 위치
+            /*  값 타입 vs 참조 타입:
+                    값 타입은 데이터를 직접 저장합니다.
+                        예: int, float, bool
+                        값 타입끼리 복사하면, 값 자체를 복사합니다.
+                    참조 타입은 데이터의 메모리 위치를 저장합니다.
+                        예: string, class, array
+                        참조 타입끼리 복사하면, 동일한 메모리 위치를 참조합니다. */
+
             {
                 Console.Write("\n  레퍼런스 체크하기\n");
 
                 string str1 = "abcdefgh"; //""리터럴..
                 string str2 = str1;
+                // 일치하는지 판단
                 if (Object.ReferenceEquals(str1, str2))
                 {
                     Console.WriteLine("동일한 레퍼런스");

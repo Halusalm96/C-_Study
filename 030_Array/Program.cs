@@ -31,6 +31,7 @@ namespace _030_Array
             {
                 for (int j = 0; j < Maps[i].Length; j++)
                 {
+                    // Map 배열안에 있는 숫자로 Tiles 위치값을 받아 출력
                     Console.Write($"{Tiles[Maps[i][j]]}");
                 }
                 Console.WriteLine();
